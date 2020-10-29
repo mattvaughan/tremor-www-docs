@@ -35,7 +35,7 @@ The [binding](./etc/tremor/config/01_binding.yaml) expresses those relations and
 binding:
   - id: passthrough # The unique name of this binding template
     links:
-      "/onramp/ws-input/{instance}/out": # Connect the inpunt to the pipeline
+      "/onramp/ws-input/{instance}/out": # Connect the input to the pipeline
         - "/pipeline/example/{instance}/in"
       "/pipeline/example/{instance}/out": # Connect the pipeline to the output
         - "/offramp/stdout-output/{instance}/in"
