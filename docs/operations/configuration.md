@@ -10,7 +10,7 @@ The tremor runtime is internally structured with repositories and registries of 
 
 - Onramp - Specify to tremor _how_ to connect to the outside world to ingest or consume external data. For example, the Kafka onramp consumes data from Kafka topics.
 
-- Offramp - Specify to tremor _how_ to connect to the outside world to publish data to external systems For example, the Elastic offramp pushes data to ElasticSearch via its bulk upload REST/HTTP API endpoint
+- Offramp - Specify to tremor _how_ to connect to the outside world to publish data to external systems. For example, the Elastic offramp pushes data to ElasticSearch via its bulk upload REST/HTTP API endpoint
 
 - Pipeline - Specify to tremor _what_ operations to perform on data ingested ( from any connected upstream source ) and _what_ to contribute or publish downstream ( to any connected downstream target ).
 
