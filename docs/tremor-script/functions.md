@@ -57,7 +57,7 @@ function definition. The anonymous arguments will be provided via the `args` key
 
 ### Recursion
 
-Tail-recursion is provided for fixed arity ( number of arguments ) tandard functions.
+Tail-recursion is provided for fixed arity ( number of arguments ) standard functions.
 
 Tremor imposes a restriction in recursion depth. As tremor is an event processing system
 it is not desireable to have long running functions that block events from being processed
